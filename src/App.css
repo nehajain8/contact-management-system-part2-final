@@ -1,0 +1,31 @@
+.search-wrapper,.show-contact {
+  margin: 0px auto;
+  max-width: 450px;
+  padding: 15px;
+}
+.contact-list-table {
+  table-layout: fixed;
+}
+.contact-list-table td, .contact-list-table th {
+    word-wrap: break-word;
+}
+.user-details {
+	color: #007bff;
+}
+.container-add, .search-wrapper {
+	float: left;
+	width: 50%;
+}
+.search-wrapper .form-control{
+	padding: 10px;
+}
+.show-contact {
+  margin: 10px auto;
+  padding: 10px;
+}
+@media only screen and (max-width: 992px) {
+    .container-add, .search-wrapper {
+		float: none;
+		width: 100%;
+	}
+}
